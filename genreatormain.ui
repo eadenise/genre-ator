@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>genreatormain</class>
+ <widget class="QMainWindow" name="genreatormain">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>485</width>
+    <height>348</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>genreatormain</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>230</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GENRE-ATE</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="bpmTxt">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>20</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="timeSigTxt">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>20</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BPM</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>20</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TIME SIGNATURE</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="genreTxt">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>100</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>110</y>
+      <width>58</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>make a</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>110</y>
+      <width>58</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>song</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>150</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>starting with a</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="instrumentTxt">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>140</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="artistTxt">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>180</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>190</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>for</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>485</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuGENRE_ATOR">
+    <property name="title">
+     <string>GENRE-ATOR</string>
+    </property>
+   </widget>
+   <addaction name="menuGENRE_ATOR"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
